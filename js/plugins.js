@@ -5,5 +5,9 @@ var $plugins =
 {"name":"Community_Basic","status":true,"description":"基本的なパラメーターを設定するプラグインです。","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"MadeWithMv","status":true,"description":"メイン画面へ進む前に、\"Made with MV\"のスプラッシュ画面もしくはカスタマイズされたスプラッシュ画面を表示します。","parameters":{"Show Made With MV":"false","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
 {"name":"CustomizeConfigDefault","status":true,"description":"オプションデフォルト値設定プラグイン","parameters":{"常時ダッシュ":"OFF","コマンド記憶":"OFF","BGM音量":"40","BGS音量":"40","ME音量":"40","SE音量":"60","常時ダッシュ消去":"OFF","コマンド記憶消去":"OFF","BGM音量消去":"OFF","BGS音量消去":"OFF","ME音量消去":"OFF","SE音量消去":"OFF"}},
-{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"true"}}
+{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"true"}},
+{"name":"ForceM4a","status":true,"description":"항상 m4a 사운드 사용","parameters":{}},
+{"name":"RecollectionTitle","status":true,"description":"타이틀에 회상 방 메뉴 추가","parameters":{"Command Name":"회상 방","Map ID":"2","X":"5","Y":"7"}},
+{"name":"iOSAudioFix","status":true,"description":"아이폰 사파리 사운드 수정","parameters":{}},
+{"name":"AudioDebug","status":true,"description":"?debug 주소로 열면 사운드 진단 화면 표시","parameters":{}}
 ];
